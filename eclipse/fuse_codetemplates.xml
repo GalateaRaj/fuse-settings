@@ -30,6 +30,9 @@ import lombok.ToString;
 
 ${typecomment}
 
+@RequiredArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PRIVATE) // For spring
+@Slf4j
 @ToString
 @EqualsAndHashCode
 ${type_declaration}</template><template autoinsert="false" context="classbody_context" deleted="false" description="Code in new class type bodies" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.classbody" name="classbody">
