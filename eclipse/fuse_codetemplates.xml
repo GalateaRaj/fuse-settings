@@ -31,7 +31,6 @@ import lombok.ToString;
 ${typecomment}
 
 @RequiredArgsConstructor
-@NoArgsConstructor(access = AccessLevel.PRIVATE) // For spring
 @Slf4j
 @ToString
 @EqualsAndHashCode
