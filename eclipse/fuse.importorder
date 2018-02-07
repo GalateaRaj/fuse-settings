@@ -1,9 +1,3 @@
 #Organize Import Order
-#Tue Nov 08 14:39:40 EST 2016
-6=javax
-5=java
-4=org
-3=net
-2=lombok
-1=com
-0=com.google
+#Mon Dec 18 14:08:41 EST 2017
+0=
